@@ -2,3 +2,7 @@
     $remValue: ($value / 16) + rem; 
     @return $remValue;
 }
+
+@function test($value) {
+    @return $value;
+}
